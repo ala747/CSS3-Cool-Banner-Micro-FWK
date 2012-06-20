@@ -29,6 +29,11 @@ Classes:
 
 TODO: add :hover effects and add support for <strong>, <em>, etc. inside the banners.
 */
+
+/* Nice typography external import (comment out next line to stop loading it) */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+/*** Basic Stuff ***/
 .banner {
     display:block;
     position: relative;

@@ -43,4 +43,4 @@ Classes:
 
 ## Authors
 
-Originaly developed by Nicolás Fantino ([@ala_747](http://twitter.com/ala_747/))
+Originaly developed by Nico Fantino ([@ala_747](http://twitter.com/ala_747/))

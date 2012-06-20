@@ -1,0 +1,24 @@
+/*
+CSS3 Cool Banner Micro FWK > Put your custom color schemes here :)
+
+Usage: use the template below to create your custom color scheme(s), rename this file to 'custom-banner-colors.css' and uncomment the line 37 into 'css3-banners-micro-fwk.css'. Voilà!
+Template:
+.banner.[color] {
+    color:#[general-font-color];
+    background: #[plain-background-color];
+    background-image: -moz-linear-gradient(top, #[top-gradient-color] 0%, #[bottom-gradient-color] 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#[top-gradient-color]), color-stop(100%,#[bottom-gradient-color]));
+    background-image: -webkit-linear-gradient(top, #[top-gradient-color] 0%,#[bottom-gradient-color] 100%);
+    background-image: -o-linear-gradient(top, #[top-gradient-color] 0%,#[bottom-gradient-color] 100%);
+    background-image: -ms-linear-gradient(top, #[top-gradient-color] 0%,#[bottom-gradient-color] 100%);
+    background-image: linear-gradient(top, #[top-gradient-color]7 0%,#[bottom-gradient-color] 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#[top-gradient-color]', endColorstr='#[bottom-gradient-color]',GradientType=0 );
+    border:1px solid #[border-color];
+}
+.banner.[color] .title {
+    color:#[title-font-color];
+}
+.banner.[color] .subtitle {
+    color:#[subtitle-font-color];
+}
+*/

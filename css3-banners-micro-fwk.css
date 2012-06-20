@@ -33,6 +33,9 @@ TODO: add :hover effects and add support for <strong>, <em>, etc. inside the ban
 /* Nice typography external import (comment out next line to stop loading it) */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 
+/* External import for your custom color schemes (rename the file 'custom-banner-colors_sample.css' to 'custom-banner-colors.css' and uncomment the next line) */
+/*@import url(custom-banner-colors.css);*/
+
 /*** Basic Stuff ***/
 .banner {
     display:block;
@@ -66,14 +69,14 @@ TODO: add :hover effects and add support for <strong>, <em>, etc. inside the ban
     .banner,
     .banner.grey {
         color:#333;
-        background: #ccc; /* Old browsers */
-        background-image: -moz-linear-gradient(top,  #eee 0%, #ccc 100%); /* FF3.6+ */
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(100%,#ccc)); /* Chrome,Safari4+ */
-        background-image: -webkit-linear-gradient(top,  #eee 0%,#ccc 100%); /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top,  #eee 0%,#ccc 100%); /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top,  #eee 0%,#ccc 100%); /* IE10+ */
-        background-image: linear-gradient(top,  #eee 0%,#ccc 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+        background: #ccc;
+        background-image: -moz-linear-gradient(top, #eee 0%, #ccc 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(100%,#ccc));
+        background-image: -webkit-linear-gradient(top, #eee 0%,#ccc 100%);
+        background-image: -o-linear-gradient(top, #eee 0%,#ccc 100%);
+        background-image: -ms-linear-gradient(top, #eee 0%,#ccc 100%);
+        background-image: linear-gradient(top, #eee 0%,#ccc 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
         border:1px solid #bbb;
     }
     .banner .title,
@@ -84,18 +87,18 @@ TODO: add :hover effects and add support for <strong>, <em>, etc. inside the ban
     .banner.grey .subtitle {
         color:#666;
     }
-    
+
     /* Orange */
     .banner.orange {
         color:#fff;
-        background: #f79621; /* Old browsers */
-        background-image: -moz-linear-gradient(top,  #f9c667 0%, #f79621 100%); /* FF3.6+ */
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9c667), color-stop(100%,#f79621)); /* Chrome,Safari4+ */
-        background-image: -webkit-linear-gradient(top,  #f9c667 0%,#f79621 100%); /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top,  #f9c667 0%,#f79621 100%); /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top,  #f9c667 0%,#f79621 100%); /* IE10+ */
-        background-image: linear-gradient(top,  #f9c667 0%,#f79621 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 ); /* IE6-9 */
+        background: #f79621;
+        background-image: -moz-linear-gradient(top, #f9c667 0%, #f79621 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9c667), color-stop(100%,#f79621));
+        background-image: -webkit-linear-gradient(top, #f9c667 0%,#f79621 100%);
+        background-image: -o-linear-gradient(top, #f9c667 0%,#f79621 100%);
+        background-image: -ms-linear-gradient(top, #f9c667 0%,#f79621 100%);
+        background-image: linear-gradient(top, #f9c667 0%,#f79621 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 );
         border:1px solid #e78611;
     }
     .banner.orange .title {
@@ -108,14 +111,14 @@ TODO: add :hover effects and add support for <strong>, <em>, etc. inside the ban
     /* Green */
     .banner.green {
         color:#fff;
-        background: #abbd73; /* Old browsers */
-        background-image: -moz-linear-gradient(top,  #e4efc0 0%, #abbd73 100%); /* FF3.6+ */
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4efc0), color-stop(100%,#abbd73)); /* Chrome,Safari4+ */
-        background-image: -webkit-linear-gradient(top,  #e4efc0 0%,#abbd73 100%); /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top,  #e4efc0 0%,#abbd73 100%); /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top,  #e4efc0 0%,#abbd73 100%); /* IE10+ */
-        background-image: linear-gradient(top,  #e4efc0 0%,#abbd73 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=0 ); /* IE6-9 */
+        background: #abbd73;
+        background-image: -moz-linear-gradient(top, #e4efc0 0%, #abbd73 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4efc0), color-stop(100%,#abbd73));
+        background-image: -webkit-linear-gradient(top, #e4efc0 0%,#abbd73 100%);
+        background-image: -o-linear-gradient(top, #e4efc0 0%,#abbd73 100%);
+        background-image: -ms-linear-gradient(top, #e4efc0 0%,#abbd73 100%);
+        background-image: linear-gradient(top, #e4efc0 0%,#abbd73 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=0 );
         border:1px solid #9bad63;
     }
     .banner.green .title {
@@ -128,14 +131,14 @@ TODO: add :hover effects and add support for <strong>, <em>, etc. inside the ban
     /* Blue */
     .banner.blue {
         color:#fff;
-        background: #05abe0; /* Old browsers */
-        background-image: -moz-linear-gradient(top,  #87e0fd 0%, #05abe0 100%); /* FF3.6+ */
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
-        background-image: -webkit-linear-gradient(top,  #87e0fd 0%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top,  #87e0fd 0%,#05abe0 100%); /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top,  #87e0fd 0%,#05abe0 100%); /* IE10+ */
-        background-image: linear-gradient(top,  #87e0fd 0%,#05abe0 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+        background: #05abe0;
+        background-image: -moz-linear-gradient(top, #87e0fd 0%, #05abe0 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(100%,#05abe0));
+        background-image: -webkit-linear-gradient(top, #87e0fd 0%,#05abe0 100%);
+        background-image: -o-linear-gradient(top, #87e0fd 0%,#05abe0 100%);
+        background-image: -ms-linear-gradient(top, #87e0fd 0%,#05abe0 100%);
+        background-image: linear-gradient(top, #87e0fd 0%,#05abe0 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
         border:1px solid #059bd0;
     }
     .banner.blue .title {
@@ -148,14 +151,14 @@ TODO: add :hover effects and add support for <strong>, <em>, etc. inside the ban
     /* Black */
     .banner.black {
         color:#ccc;
-        background: #0e0e0e; /* Old browsers */
-        background-image: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
-        background-image: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
-        background-image: linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+        background: #0e0e0e;
+        background-image: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e));
+        background-image: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+        background-image: -o-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+        background-image: -ms-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+        background-image: linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
         border:1px solid #000;
     }
     .banner.black .title {
@@ -168,14 +171,14 @@ TODO: add :hover effects and add support for <strong>, <em>, etc. inside the ban
     /* Red */
     .banner.red {
         color:#ecd;
-        background: #6d0019; /* Old browsers */
-        background-image: -moz-linear-gradient(top,  #a90329 0%, #6d0019 100%); /* FF3.6+ */
-        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
-        background-image: -webkit-linear-gradient(top,  #a90329 0%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
-        background-image: -o-linear-gradient(top,  #a90329 0%,#6d0019 100%); /* Opera 11.10+ */
-        background-image: -ms-linear-gradient(top,  #a90329 0%,#6d0019 100%); /* IE10+ */
-        background-image: linear-gradient(top,  #a90329 0%,#6d0019 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+        background: #6d0019;
+        background-image: -moz-linear-gradient(top, #a90329 0%, #6d0019 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(100%,#6d0019));
+        background-image: -webkit-linear-gradient(top, #a90329 0%,#6d0019 100%);
+        background-image: -o-linear-gradient(top, #a90329 0%,#6d0019 100%);
+        background-image: -ms-linear-gradient(top, #a90329 0%,#6d0019 100%);
+        background-image: linear-gradient(top, #a90329 0%,#6d0019 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
         border:1px solid #5d0009;
     }
     .banner.red .title {

@@ -27,7 +27,7 @@ Classes:
         .black (optional)
         .red (optional)
 
-TODO: add :hover effects and add support for <strong>, <em>, etc. inside the banners.
+TODO: add :hover effects <del>and add support for <strong>, <em>, etc. inside the banners</del>.
 */
 
 /* Nice typography external import (comment out next line to stop loading it) */
@@ -48,6 +48,14 @@ TODO: add :hover effects and add support for <strong>, <em>, etc. inside the ban
 }
 .banner span {
     display:block;
+}
+.banner strong,
+.banner b {
+    font-weight: bold;
+}
+.banner em,
+.banner i {
+    font-style: italic;
 }
 
 /*** Typography ***/
